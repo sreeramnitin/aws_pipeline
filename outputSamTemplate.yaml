@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Outputs the time
+Resources:
+  TimeFunction:
+    Properties:
+      CodeUri: s3://cf-new/9f00974d352ebe3172b5ef0074e52672
+      Events:
+        MyTimeApi:
+          Properties:
+            Method: GET
+            Path: /TimeResource
+          Type: Api
+      Handler: index.handler
+      Runtime: nodejs6.10
+    Type: AWS::Serverless::Function
+Transform: AWS::Serverless-2016-10-31
