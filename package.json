@@ -1,0 +1,22 @@
+{
+  "name": "time_api",
+  "version": "1.0.0",
+  "description": "Lambda time api auto code pipeline and stuff",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sreeramnitin/aws_pipeline.git"
+  },
+  "author": "Nitin Sreeram",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sreeramnitin/aws_pipeline/issues"
+  },
+  "homepage": "https://github.com/sreeramnitin/aws_pipeline#readme",
+  "dependencies": {
+    "time": "^0.12.0"
+  }
+}
