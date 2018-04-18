@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/sreeramnitin/aws_pipeline#readme",
   "dependencies": {
+    "aws-sdk": "^2.224.1",
     "time": "^0.12.0"
   }
 }
